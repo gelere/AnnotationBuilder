@@ -1,0 +1,47 @@
+.doc_navbar_toogler {
+  background-color: var(--blue);
+  position: absolute;
+  position: fixed;
+  top: 75px;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1500;
+  transition: transform 0.3 linear;
+}
+.doc_navbar {
+  box-sizing: content-box;
+  background-color: var(--blue);
+  z-index: 1500;
+  left: 0;
+  top: 75px;
+  position: fixed;
+  width: 310px;
+  height: 600px;
+  scrollbar-width: none;
+  padding: 20px;
+  color: var(--white);
+  overflow-wrap: break-word;
+  display: none;
+  overflow: scroll;
+}
+.doc_navbar h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px dashed rgb(0, 90, 168);
+  border-bottom: 1px dashed rgb(0, 90, 168);
+}
+.doc_option {
+  padding: 20px;
+  cursor: pointer;
+}
+.doc_option:hover {
+  padding: 20px;
+  background-color: rgba(0, 90, 168, 0.5);
+}
