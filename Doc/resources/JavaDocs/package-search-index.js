@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.gelere.annotationBuilder"},{"l":"com.gelere.annotationBuilder.annotation"},{"l":"com.gelere.annotationBuilder.exception"},{"l":"com.gelere.annotationBuilder.task"}];updateSearchResults();
